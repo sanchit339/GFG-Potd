@@ -77,3 +77,21 @@ float findMedian(struct Node *root)
         return ans;
     }
 }
+
+/*
+
+in-order
+pre-order
+post-order
+
+
+
+LDR
+DLR
+RLD
+
+left data right
+
+
+
+*/

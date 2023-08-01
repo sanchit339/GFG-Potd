@@ -53,3 +53,12 @@ vector<int>findSpiral(Node *root)
     }
     return ans;
 }
+
+void count(Node * root , int &cnt){
+    if(!root) return;
+    count(root -> left , cnt);
+    cnt++;
+    count(root -> right , cnt);
+}
+
+// . inorder traverse 
